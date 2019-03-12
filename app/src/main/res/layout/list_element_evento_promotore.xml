@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/linear_layout_list_element_evento_promotore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/nome_evento"
+            android:text=""
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+    </LinearLayout>
+<!--
+    <LinearLayout
+        android:id="@+id/linear_layout_button_modifica_e_elimina_evento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/linear_layout_list_element_evento_promotore"
+        >
+
+        <Button
+            android:id="@+id/button_modifica_evento_promotore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Modifica"
+            android:onClick="modificaEvento"/>
+
+        <Button
+            android:id="@+id/button_elimina_evento_promotore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Elimina"
+            android:onClick="eliminaEvento"/>
+
+    </LinearLayout>
+    -->
+</RelativeLayout>

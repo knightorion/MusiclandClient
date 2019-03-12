@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relative_layout_pagina_proposta_evento"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:id="@+id/linear_layout_form_proposta_evento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView_form_proposta_evento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pagina proposta evento"
+            android:textSize="35dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_layout_nome_proposta_evento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linear_layout_form_proposta_evento"
+        android:layout_marginTop="25dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView_nome_proposta_evento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nome"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/textView_nome_proposta_evento_visualizzata"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="20dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_layout_nome_locale_proposta_evento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linear_layout_nome_proposta_evento"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/textView_nome__locale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nome locale"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/textView_nome_locale_proposta_evento_visualizzato"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="20dp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linear_layout_via_proposta_evento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linear_layout_nome_locale_proposta_evento"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/textView_via_proposta_evento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Via:"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/textView_via_proposta_evento_visualizzata"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="20dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_layout_citta_proposta_evento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linear_layout_via_proposta_evento"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/textView_citta_proposta_evento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Città:"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/textView_citta_proposta_evento_visualizzata"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="20dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_layout_provincia_proposta_evento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linear_layout_citta_proposta_evento"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/textView_provincia_proposta_evento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Provincia:"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/textView_provincia_proposta_evento_visualizzata"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="20dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_layout_regione_proposta_evento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linear_layout_provincia_proposta_evento"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/textView_regione_proposta_evento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Regione:"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/textView_regione_proposta_evento_visualizzata"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="20dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_layout_orario_proposta_evento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linear_layout_regione_proposta_evento"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView_orario_proposta_evento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Orario:"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/textView_ora_proposta_evento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ora"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/textView_ora_proposta_evento_visualizzata"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/textView_trattino"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:text="-"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/textView_minuti_proposta_evento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:text="Minuti"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/textView_minuti_proposta_evento_visualizzati"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="20dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_layout_data_proposta_evento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linear_layout_orario_proposta_evento"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView_data_proposta_evento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Data:"
+            android:textSize="20dp" />
+
+
+        <TextView
+            android:id="@+id/textView_giorno_proposta_evento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Giorno:"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/textView_giorno_proposta_evento_visualizzata"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/textView_mese_proposta_evento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mese:"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/textView_mese_proposta_evento_visualizzata"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="20dp" />
+
+
+        <TextView
+            android:id="@+id/textView_anno_proposta_evento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Anno:"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/textView_anno_proposta_evento_visualizzata"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="20dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_layout_genere_musicale_suonato_proposta_evento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linear_layout_data_proposta_evento"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textView_genere_musicale_suonato_proposta_evento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Generi musicali richiesti:"
+            android:textSize="20dp" />
+
+        <ScrollView
+            android:id="@+id/scroll_view_generi_musicali"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <!--android:layout_alignTop="@+id/linear_layout_genere_musicale_suonato_proposta_evento"-->
+
+            <ListView
+                android:id="@+id/list_view_generi_musicali_proposta_evento"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </ListView>
+        </ScrollView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_layout_descrizione_proposta_evento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linear_layout_genere_musicale_suonato_proposta_evento"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/textView_descrizione_serata_proposta_evento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Descrizione:"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/textView_descrizione_proposta_evento_visualizzata"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="20dp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linear_layout_button_conferma_proposta_evento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linear_layout_descrizione_proposta_evento"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_mi_interessa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onClickMiInteressa"
+            android:text="Mi interessa" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_layout_persone_interessate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linear_layout_button_conferma_proposta_evento"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Artisti interessati:"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <ScrollView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ListView
+                android:id="@+id/listView_nome_artisti_interessati_proposta_evento"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </ListView>
+
+        </ScrollView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Band interessate:"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+
+        <ScrollView
+            android:id="@+id/scroll_view_persone_interessate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ListView
+                android:id="@+id/listView_band_interessate_proposta_evento"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </ListView>
+
+        </ScrollView>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

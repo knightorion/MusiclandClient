@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:id="@+id/relative_layout_list_element_proposta_evento_promotore">
+
+    <LinearLayout
+        android:id="@+id/linear_layout_list_element_proposta_evento_promotore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView_nome_proposta_evento_promotore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+
+    </LinearLayout>
+<!--
+    <LinearLayout
+        android:layout_below="@id/linear_layout_list_element_proposta_evento_promotore"
+        android:id="@+id/linear_layout_button"
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true">
+
+        <Button
+            android:text="Crea Evento"
+            android:id="@+id/button_apri_form_evento_da_proposta"
+            android:onClick="apriFormEvento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:text="Modifica"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_modifica_proposta_evento"
+            android:onClick="modificaPropostaEvento"/>
+
+        <Button
+            android:text="Elimina"
+            android:id="@+id/button_elimina_proposta_evento"
+            android:onClick="eliminaPropostaEvento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    -->
+
+</RelativeLayout>
+

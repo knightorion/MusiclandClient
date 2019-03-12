@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/mio_profilo_p"
+            android:title="Mio Profilo" />
+        <item
+            android:id="@+id/miei_eventi"
+            android:title="Miei Eventi" />
+        <item
+            android:id="@+id/mie_proposte_evento"
+            android:title="Mie Proposte Evento" />
+        <item
+            android:id="@+id/cerca_band"
+            android:title="Cerca Band" />
+        <item
+            android:id="@+id/cerca_artisti"
+            android:title="Cerca Artisti"/>
+        <item
+            android:id="@+id/cerca_evento"
+            android:title="Cerca Eventi" />
+        <item
+            android:id="@+id/crea_evento"
+            android:title="Crea Evento" />
+
+        <item
+            android:id="@+id/crea_proposte_evento"
+            android:title="Crea Proposte Evento" />
+
+        <item
+            android:id="@+id/logout"
+            android:title="Logout" />
+    </group>
+
+
+</menu>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relative_layout_lista_promotori"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/linear_layout_lista_promotori"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView_lista_promotori"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lista promotori"
+            android:textSize="35dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_layout_lista_promotoori"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linear_layout_lista_promotori"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+
+        <ListView
+            android:id="@android:id/list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </ListView>
+
+
+    </LinearLayout>
+
+</RelativeLayout>
